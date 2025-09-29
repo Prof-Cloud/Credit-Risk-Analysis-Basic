@@ -2,13 +2,14 @@
 Build a credit risk assessment model using Python to predit the likelihood of default for loan applicant 
 
 Features:
-1. Collect historical loan data, including borrower information, credit scores, and loan performance.
-2. Preprocess the data, handle categorical variables, and perform feature enginerring
-3. Train machine learning models such as logistic regression, decision trees, and boosting to predicit default probability
-4. Evaluate model performance using metrics like ROC AUC, percision-recall curve, and calibration plots
-5. Advance - Random Forest
-6. Interpert model results and assess the impact of different features on credit risks
+1. **Data Acquisition:** Securely downloads and loads the dataset.
+2. **Initial Inspection:** Displays the first few rows of the data to confirm successful loadings and visualize the colunmn and data structure
+3. **Basic Diagonostics:** Checks the number of rows and coloums
+4. **Missing Data Check:** Quantifies the number of missing values for every column using ".isnull().sum()" whcih is a key diagnostic for data cleaning.
+5. **Summmary Statistics:** Provides descriptive statisics for all numerical features in the dataset. 
 
+
+1. 
 Dataset
 
 https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis
