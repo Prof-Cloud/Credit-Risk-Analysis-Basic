@@ -1,4 +1,4 @@
-# Credit-Risk-Analysis
+# Credit Risk Analysis Basic
 Build a credit risk assessment model using Python to predit the likelihood of default for loan applicant 
 
 Features:
